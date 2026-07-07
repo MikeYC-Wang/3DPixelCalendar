@@ -1,6 +1,6 @@
 # 🕹️ 3D Pixel Calendar
 
-繁體中文 | [English](README.md) | [日本語](README.ja.md) | [한국어](README.ko.md)
+[繁體中文](README.md) | English | [日本語](README.ja.md) | [한국어](README.ko.md)
 
 A daily auto-updating, retro pixel-art "3D" calendar SVG that shows today's Gregorian date and Lunar (Chinese calendar) date. Supports multiple color themes, languages, and timezones — anyone can embed it directly in their own GitHub `README.md`.
 

@@ -1,6 +1,6 @@
 # 🕹️ 3D Pixel Calendar
 
-繁體中文 | [English](README.en.md) | 日本語 | [한국어](README.ko.md)
+[繁體中文](README.md) | [English](README.en.md) | 日本語 | [한국어](README.ko.md)
 
 
 毎日自動更新されるレトロなピクセルアート風「立体」カレンダー SVG です。今日の新暦の日付と旧暦（農暦）の日付を表示します。複数のカラーテーマ・言語・タイムゾーンに対応しており、誰でも自分の GitHub `README.md` に直接埋め込めます。

@@ -1,6 +1,6 @@
 # 🕹️ 3D Pixel Calendar
 
-繁體中文 | [English](README.en.md) | [日本語](README.ja.md) | 한국어
+[繁體中文](README.md) | [English](README.en.md) | [日本語](README.ja.md) | 한국어
 
 매일 자동으로 업데이트되는 레트로 픽셀 아트 스타일의 "입체" 달력 SVG입니다. 오늘의 양력 날짜와 음력 날짜를 보여줍니다. 여러 색상 테마, 언어, 시간대를 지원하며, 누구나 자신의 GitHub `README.md`에 바로 삽입할 수 있습니다.
 
