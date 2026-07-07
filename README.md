@@ -1,5 +1,7 @@
 # 🕹️ 3D Pixel Calendar
 
+[English](README.en.md) | [日本語](README.ja.md) | [한국어](README.ko.md) | 繁體中文
+
 一張每天自動更新的復古像素風「立體」日曆 SVG，顯示國曆日期與農曆月日，支援多種配色、語言與時區，任何人都可以直接嵌入自己的 GitHub `README.md`。
 
 ![preview](https://raw.githubusercontent.com/MikeYC-Wang/3DPixelCalendar/output/dist/calendar.svg)
