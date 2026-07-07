@@ -96,3 +96,7 @@ src/
   generateAll.ts  # CLI：批次產生所有組合（CI 用）
 .github/workflows/generate-calendar.yml  # 每日自動產生並發布到 output 分支
 ```
+
+## License
+
+[MIT](LICENSE)

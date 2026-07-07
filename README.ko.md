@@ -98,3 +98,7 @@ src/
   generateAll.ts  # CLI: 모든 조합 일괄 생성 (CI용)
 .github/workflows/generate-calendar.yml  # 매일 자동 생성 및 output 브랜치에 배포
 ```
+
+## 라이선스
+
+[MIT](LICENSE)

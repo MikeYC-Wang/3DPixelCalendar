@@ -99,3 +99,7 @@ src/
   generateAll.ts  # CLI：すべての組み合わせを一括生成（CI用）
 .github/workflows/generate-calendar.yml  # 毎日自動生成して output ブランチに公開
 ```
+
+## ライセンス
+
+[MIT](LICENSE)

@@ -98,3 +98,7 @@ src/
   generateAll.ts  # CLI: batch-generate every combination (used by CI)
 .github/workflows/generate-calendar.yml  # Daily generation + publish to the output branch
 ```
+
+## License
+
+[MIT](LICENSE)
