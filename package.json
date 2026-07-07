@@ -1,0 +1,19 @@
+{
+  "name": "3d-pixel-calendar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixel-art 3D style calendar SVG generator (Gregorian + Lunar date, UTC+8)",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "generate": "node dist/index.js --output dist/calendar.svg",
+    "generate:all": "node dist/generateAll.js"
+  },
+  "dependencies": {
+    "lunar-javascript": "^1.7.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "typescript": "^5.4.5"
+  }
+}
