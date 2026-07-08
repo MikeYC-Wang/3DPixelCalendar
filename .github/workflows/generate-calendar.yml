@@ -2,13 +2,13 @@ name: Generate pixel calendar
 
 on:
   schedule:
-    # Runs 4 times a day (every 6 hours) at UTC 00:05 / 06:05 / 12:05 / 18:05.
-    # GitHub's scheduled runs are best-effort and can be delayed, so spreading
-    # them out reduces the chance of the published calendar showing a stale day.
-    - cron: "5 0 * * *"
-    - cron: "5 6 * * *"
-    - cron: "5 12 * * *"
-    - cron: "5 18 * * *"
+    # Runs hourly at :05. Each timezone variant computes its own local date,
+    # so an hourly run means every timezone's calendar flips to the new day
+    # shortly after that timezone crosses local midnight (e.g. the Taipei
+    # variant updates just after 00:00 in Taipei, New York just after 00:00
+    # in New York, and so on). GitHub's scheduled runs are best-effort and
+    # may be delayed by a few minutes to an hour.
+    - cron: "5 * * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
